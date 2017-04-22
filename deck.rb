@@ -23,8 +23,8 @@ Squib::Deck.new cards: data['Name'].size, layout: 'heroes.yml' do
   # Background
   svg layout: 'Background', file: data['Background']
 
-  # Avatar
-  svg layout: 'Avatar', file: data['Avatar']
+  #text_underlay
+  svg layout: 'Background', file: 'svg/text_underlay.svg'
 
   # Text
   text str: data['Plus'], layout: 'Plus'
@@ -38,5 +38,5 @@ Squib::Deck.new cards: data['Name'].size, layout: 'heroes.yml' do
 
   #text str: Time.now, layout: 'credits'
   save_png prefix: 'card_'
-  #save_pdf trim: 37.5, file: 'cards.pdf'
+  save_pdf trim: 37.5, file: 'cards.pdf'
 end
