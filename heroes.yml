@@ -1,0 +1,56 @@
+sketch_text:
+  font: 'KG Second Chances Sketch'
+
+drafting_text:
+  #font: 'Drafting'
+  x: 45
+  y: 140
+  width: 740
+  height: 240
+  align: center
+  font_size: 40
+  hint: 'red'
+
+Background:
+  x: 0
+  y: 0
+  width: 825
+  height: 1125
+
+Avatar:
+  x: 130
+  y: 535
+  width: 600
+  height: 600
+
+Name:
+  extends: sketch_text
+  x: 90
+  y: 50
+  width: 630
+  height: 300
+  align: center
+  font_size: 50
+
+Plus:
+  extends: drafting_text
+
+Minus:
+  extends: drafting_text
+  y: 380
+  height: 250
+
+# The "cut line", without rounded corners
+cut:
+  x: 37.5
+  y: 37.5
+  width: 750
+  height: 1050
+
+# The "safe zone" as defined by TheGameCrafter poker cards
+safe:
+  x: 75
+  y: 75
+  width: 675
+  height: 975
+  radius: 16
