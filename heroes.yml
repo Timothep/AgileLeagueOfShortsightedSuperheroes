@@ -1,21 +1,35 @@
-sketch_text:
-  font: 'KG Second Chances Sketch'
+hint:
+  #hint: 'red'
+  x: 0
 
-drafting_text:
-  #font: 'Drafting'
-  x: 75
+header:
+  extends: hint
+  font: 'Montserrat Black'
+  x: 90
+  y: 65
+  width: 630
+  height: 100
+  align: center
+  font_size: 50
+
+text:
+  extends: hint
+  font: 'Montserrat'
+  x: 85
   y: 200
-  width: 675
+  width: 660
   height: 240
   align: center
-  font_size: 40
-  #hint: 'red'
+  font_size: 30
 
 Background:
   x: 0
   y: 0
   width: 825
-  height: 1100
+  height: 1125
+
+Background_cut:
+  extends: cut
 
 Avatar:
   x: 130
@@ -24,21 +38,24 @@ Avatar:
   height: 600
 
 Name:
-  extends: sketch_text
-  x: 90
-  y: 75
-  width: 630
-  height: 300
-  align: center
-  font_size: 50
+  extends: header
 
 Plus:
-  extends: drafting_text
+  extends: text
 
 Minus:
-  extends: drafting_text
-  y: 450
+  extends: text
+  y: 500
   height: 250
+
+but_text:
+  extends: text
+  x: 85
+  y: 400
+  width: 660
+  height: 50
+  align: center
+  font_size: 30
 
 # The "cut line", without rounded corners
 cut:
