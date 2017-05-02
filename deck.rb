@@ -43,5 +43,5 @@ Squib::Deck.new cards: data['Name'].size, layout: 'heroes.yml' do
 
   #text str: Time.now, layout: 'credits'
   save_png prefix: 'card_'
-  save_pdf trim: 37.5, file: 'cards.pdf'
+  #save_pdf trim: 37.5, file: 'cards.pdf'
 end

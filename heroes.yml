@@ -4,13 +4,13 @@ hint:
 
 header:
   extends: hint
-  font: 'Montserrat Black'
-  x: 90
+  font: 'Allstar'
+  x: 75
   y: 65
-  width: 630
+  width: 680
   height: 100
   align: center
-  font_size: 50
+  font_size: 55
 
 text:
   extends: hint
@@ -47,6 +47,7 @@ Minus:
   extends: text
   y: 500
   height: 250
+  #valign: bottom
 
 but_text:
   extends: text
