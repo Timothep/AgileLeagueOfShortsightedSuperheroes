@@ -58,6 +58,12 @@ but_text:
   align: center
   font_size: 30
 
+credits:
+  font_size: 10
+  x: 50
+  y: 1050
+  angle: -1.5708
+
 # The "cut line", without rounded corners
 cut:
   x: 37.5
